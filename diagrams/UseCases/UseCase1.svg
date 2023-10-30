@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="182px" preserveAspectRatio="none" style="width:331px;height:182px;background:#FFFFFF;" version="1.1" viewBox="0 0 331 182" width="331px" zoomAndPan="magnify"><defs/><g><g id="elem_UC1"><ellipse cx="76.8567" cy="160.0713" fill="#F1F1F1" rx="70.8567" ry="16.5713" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="28.8567" y="164.5879">Third usecase</text></g><g id="elem_UC2"><ellipse cx="254.2113" cy="160.1423" fill="#F1F1F1" rx="71.2113" ry="16.6423" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="205.7113" y="164.6589">Forth usecase</text></g><!--MD5=[ae78ca0dd1f49bdd788e5556d70823ac]
+entity Customer--><g id="elem_Customer"><ellipse cx="254" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M254,22 L254,49 M241,30 L267,30 M254,49 L241,64 M254,49 L267,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="223.5" y="80.0332">Customer</text></g><!--MD5=[fd93edd569acab5c43ea11fac0f53459]
+entity Aptiv_Systems--><g id="elem_Aptiv_Systems"><ellipse cx="77" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M77,22 L77,49 M64,30 L90,30 M77,49 L64,64 M77,49 L90,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="31" y="80.0332">Aptiv_Systems</text></g><!--MD5=[76025d5c180c4b87bbf617bf41547c76]
+link Aptiv_Systems to UC1--><g id="link_Aptiv_Systems_UC1"><path d="M77,83.61 C77,101.73 77,122.71 77,137.93 " fill="none" id="Aptiv_Systems-to-UC1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="77,143.26,81,134.26,77,138.26,73,134.26,77,143.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b057adf7faef67eb30ada733a805dd59]
+link Customer to UC2--><g id="link_Customer_UC2"><path d="M254,83.61 C254,101.73 254,122.71 254,137.93 " fill="none" id="Customer-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="254,143.26,258,134.26,254,138.26,250,134.26,254,143.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6ba388e7af44efc81012bc44a5f3bf1d]
+@startuml UseCase1
+    (Third usecase) AS (UC1)
+    (Forth usecase) AS (UC2)
+
+    actor Customer
+    actor Aptiv_Systems
+
+    Aptiv_Systems - -> UC1
+    Customer - -> UC2
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

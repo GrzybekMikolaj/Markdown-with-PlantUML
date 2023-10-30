@@ -1,0 +1,17 @@
+@startuml UseCase1
+    (Third usecase) AS (UC1)
+    (Forth usecase) AS (UC2)
+
+    actor Customer
+    actor Aptiv_Systems
+
+    Aptiv_Systems --> UC1
+    Customer --> UC2
+@enduml
+
+@startuml UseCase2
+    (Second usecase)
+    (Just Another usecase) as (UC2)
+    usecase UC3
+    usecase (Last\nusecase) as UC4
+@enduml

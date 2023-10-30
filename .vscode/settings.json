@@ -1,0 +1,37 @@
+{
+    "redhat.telemetry.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Solarized Light",
+    "notebook.output.textLineLimit": 30000,
+    "window.zoomLevel": 1,
+    "git.openRepositoryInParentFolders": "never",
+    "plantuml.render": "Local",
+    // "plantuml.java": "",
+    "markdown.extension.toc.omittedFromToc": {
+
+    },
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "plantuml.exportFormat": "svg", // Choose any format you like
+    "plantuml.exportOutDir": "diagrams",
+
+    "triggerTaskOnSave.tasks": {
+        "generatePlantumlSvg": [
+            "**/*.puml",
+            "**/*.plantuml",
+        ]
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "triggerTaskOnSave.selectedTask"
+    ],
+    "plantuml.exportIncludeFolderHeirarchy": false,
+    "markdown.extension.list.toggle.candidate-markers": [
+        
+        "-",
+        "*",
+        "+",
+        "1.",
+        "1)"
+    ]
+}
